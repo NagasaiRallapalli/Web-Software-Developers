@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.part1{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color:indigo;
+}
+.part1 .title{
+    margin: 10px 20px;
+    color: white;
+}
+.part1 .title h1{
+    font-family: 'Poppins', sans-serif;
+}
+.part1 .title .icon i{
+    margin-top: -40px;
+    font-size: 40px;
+    text-align: end;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.matter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    background-color: indigo;
+    padding: 50px 0;
+}
+.matter .left{
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
+    padding: 0 50px;
+    color: white;
+    flex-shrink: 0;
+}
+.matter .left h1{
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+.matter .left p{
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 40px;
+}
+.matter .left span{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.matter .left button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: lightblue;
+    color: indigo;
+}
+.matter .left button:hover{
+    background-color: deepskyblue;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.matter .right{
+    width: 60%;
+    height: auto;
+    margin: 0 20px;
+    padding: 0 50px;
+}
+.matter .right img{
+    width: 65%;
+    height: auto;
+    margin-left: 180px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+.part2{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+}
+.part2 .header{
+    margin: 10px 20px;
+    color: black;
+    text-align: center;
+}
+.part2 .header h1{
+    font-family: 'poppins', sans-serif;
+    padding: 20px 0;
+    font-size: 3em;
+}
+.part2 p{
+    margin: 0 20px;
+    font-size: 1.2em;
+    padding: 10px 0;
+    color: black;
+    gap: 10px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.content .left, .content .right{
+    width: 45%;
+    height: auto;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.content .left img{
+    width: 100%;
+    height: auto;
+    background-color: lightslategray;
+}
+.content .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.content .right .icon1, 
+.content .right .icon2, 
+.content .right .icon3, 
+.content .right .icon4{
+    width: 45%;
+    height: 215px;
+    background-color: blue;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content .right .icon1 h4, 
+.content .right .icon2 h4, 
+.content .right .icon3 h4, 
+.content .right .icon4 h4{
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    font-size: 1.5em;
+}
+.content .right .icon1{
+    background-color: deepskyblue;
+}
+.content .right .icon2 {
+    background-color: rgb(184, 54, 184);
+}
+.content .right .icon3{
+    background-color: rgb(98, 32, 145);
+}
+.content .right .icon4{
+    background-color: rgb(225, 38, 128);
+}
+.content .right .icon1:hover, 
+.content .right .icon2:hover, 
+.content .right .icon3:hover, 
+.content .right .icon4:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+}
+.content .right i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 2.5em;
+}
+.content .right .icon1 i:hover, 
+.content .right .icon2 i:hover, 
+.content .right .icon3 i:hover, 
+.content .right .icon4 i:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.2) rotate(360deg);
+    color: white;
+    transition: transform 2s ease;
+}
+.content .right .icon1:hover i,
+.content .right .icon2:hover i,
+.content .right .icon3:hover i,
+.content .right .icon4:hover i {
+    transform: scale(1.2) rotate(360deg);
+    color: white;
+    transition: transform 2s ease;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer p{
+    font-size: 1.2em;
+    color: blue;
+}
+.footer p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fotter p span:focus, 
+.footer p span:hover{
+    color: deepskyblue;
+}
+.part3{
+    width: 100%;
+    height: auto;
+    background-color: indigo;
+    padding: 20px 0;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.part3 .left{
+    width: 65%;
+    height: auto;
+    margin: 10px 0;
+    padding: 0 20px;
+    color: white;
+}
+.part3 .left h1{
+    font-size: 3em;
+    font-weight: bold;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+.part3 .left img{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin-left: 100px;
+}
+.part3 .left p{
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.part3 .left span{
+    text-decoration: underline;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.part3 .left span:focus, 
+.part3 .left span:hover{
+    color: lightblue;
+}
+.part3 .right{
+    width: 35%;
+    height: auto;
+    margin: 10px 0;
+    padding: 0 20px;
+    color: white;
+}
+.right h1, .right h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.right h1{
+    margin-top: 100px;
+}
+.right h2{
+    margin-top: 150px;
+}
+.right p{
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+    padding-left:60px;
+    margin-bottom: 45px;
+
+}
+.right span{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px){
+    .matter{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .matter .left, .matter .right{
+        width: 90%;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+    .matter .right img{
+        width: 100%;
+        margin: 0;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content .left, .content .right{
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+    .content .right{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .content .right .icon1 h4, 
+    .content .right .icon2 h4, 
+    .content .right .icon3 h4, 
+    .content .right .icon4 h4{
+        flex-wrap: wrap;
+        font-size: 0.8em;
+        font-weight: 550;
+    }
+    .part3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .part3 .left, .part3 .right{
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+    .part3 .left h1, 
+    .part3 .left img, 
+    .part3 .left p, 
+    .part3 .right h1, 
+    .part3 .right h2, 
+    .part3 .right p{
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .part3 .left img{
+        width: 100%;
+        margin: 0;
+    }
+    .part3 .right h1, 
+    .part3 .right h2{
+        margin-top: 2opx;
+    }
+    .part3 .right p{
+        margin-bottom: 20px;
+    }
+    .part3 .right span, 
+    .part3 .left span{
+        margin-top: 0;
+    }
+}
